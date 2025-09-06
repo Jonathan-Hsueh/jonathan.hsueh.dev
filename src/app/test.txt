@@ -1,0 +1,38 @@
+<div className="snap-y snap-mandatory h-screen overflow-y-scroll">
+      <div className="w-screen h-screen snap-start bg-white-100"> 
+      <ImpactText></ImpactText>
+
+      </div>
+
+      <div className="w-screen h-screen snap-start bg-white-100"> 
+      <HeroSection/>
+
+      </div>
+
+      <div className="w-screen h-screen snap-start bg-white-100">
+        
+        <div className="bg-gradient-to-r from-[#C76A2F] font-bold via-[#E6CBA8] to-[#1E1E1E] bg-clip-text text-transparent">
+        Gradient Text Example
+        </div>
+
+        <div className="space-y-2">
+          <p className="text-[#C76A2F] font-bold">Rust Orange Text</p>
+          <p className="text-[#1E1E1E] font-bold">Deep Charcoal Black Text</p>
+          <p className="text-[#E6CBA8] font-bold">Warm Beige Text</p>
+        </div>
+
+        <h1 className="text-4xl font-extrabold tracking-tight text-black">
+          Brand Color Usage tt
+        </h1>
+        <div className="bg-gradient-to-r from-[#A4422E] via-[#D9A441] to-[#1C1C1C] bg-clip-text text-transparent">
+        Gradient Text Example
+        </div>
+
+      </div>
+    </div>
+
+
+style={{
+          fontFamily: 'Impact, "Franklin Gothic Bold", "Helvetica Black", sans-serif',
+          fontStretch: 'condensed'
+        }}

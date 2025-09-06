@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Impact&display=swap');
 @import "tailwindcss";
+
+.impact-font {
+  font-family: 'Impact', 'Franklin Gothic Bold', 'Helvetica Black', sans-serif;
+  font-stretch: condensed;
+}
+
 
 :root {
   --background: #ffffff;
