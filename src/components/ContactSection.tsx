@@ -197,7 +197,7 @@ const ContactSection = () => {
               </button>
             </div>
             <p className="mt-2 text-sm text-gray-600">
-              Thanks! I&aposll get back to you soon.
+              Thanks! I&apos;ll get back to you soon.
             </p>
             <div className="mt-4 flex justify-end">
               <button

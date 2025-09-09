@@ -30,7 +30,7 @@ const AwardsCarouselSection: React.FC = () => {
       {
         title: "Hospital Resources and Events Research",
         description: "Advanced to finals in global AI innovation challenge.",
-        href: "https://example.com/award4",
+        href: "https://ieee-iotj.org/",
         status: "in-progress" as const,
         icon: <NotebookText className="w-12 h-12"/>,
       },
