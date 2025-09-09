@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { FaReact, FaHtml5, FaNotesMedical, FaPython } from "react-icons/fa";
+import { FaReact, FaNotesMedical, FaPython } from "react-icons/fa";
 import { SiTypescript, SiHuggingface, SiNextdotjs, SiTailwindcss , SiLatex} from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 import { MdOutlineVideoCameraBack } from "react-icons/md";
@@ -23,7 +23,7 @@ const SkillsSection: React.FC = () => {
         {/* Intro paragraph */}
         <div className="pl-6 md:pl-8 mb-8">
           <p className="text-base md:text-m leading-relaxed">
-            I'm great in dissecting complex problems into manageable tasks, essential for crafting
+            I&apos;m great in dissecting complex problems into manageable tasks, essential for crafting
             robust, maintainable code in large-scale projects. I&apos;m driven by challenges, always
             seeking opportunities to enhance my skills. My self-directed learning approach empowers
             me to quickly grasp and adapt to new technologies autonomously.
