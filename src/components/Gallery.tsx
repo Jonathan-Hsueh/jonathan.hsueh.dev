@@ -8,7 +8,7 @@ const Gallery: React.FC = () => {
 
   return (
     // centered inside the snap container
-    <div className="min-h-screen bg-white p-8 flex flex-col items-center justify-center space-y-8">
+    <div className="min-h-screen p-8 flex flex-col items-center justify-center space-y-8">
     {/* Main heading with Impact font */}
         <h1 
         className="text-6xl font-black text-sky-950 uppercase tracking-normal leading-none" // tracking normal or tight

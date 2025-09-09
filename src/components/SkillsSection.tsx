@@ -1,8 +1,12 @@
 "use client";
 
 import React from "react";
-import { FaReact, FaNodeJs, FaHtml5, FaPython, FaRust } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiC, SiTailwindcss, SiVuedotjs } from "react-icons/si";
+import { FaReact, FaHtml5, FaNotesMedical, FaPython } from "react-icons/fa";
+import { SiTypescript, SiHuggingface, SiNextdotjs, SiTailwindcss , SiLatex} from "react-icons/si";
+import { TbBrandCpp } from "react-icons/tb";
+import { MdOutlineVideoCameraBack } from "react-icons/md";
+
+
 
 const SkillsSection: React.FC = () => {
   return (
@@ -19,8 +23,8 @@ const SkillsSection: React.FC = () => {
         {/* Intro paragraph */}
         <div className="pl-6 md:pl-8 mb-8">
           <p className="text-base md:text-m leading-relaxed">
-            I excel in dissecting complex problems into manageable tasks, essential for crafting
-            robust, maintainable code in large-scale projects. I&aposm driven by challenges, always
+            I'm great in dissecting complex problems into manageable tasks, essential for crafting
+            robust, maintainable code in large-scale projects. I&apos;m driven by challenges, always
             seeking opportunities to enhance my skills. My self-directed learning approach empowers
             me to quickly grasp and adapt to new technologies autonomously.
           </p>
@@ -30,40 +34,40 @@ const SkillsSection: React.FC = () => {
         <div className="pl-6 md:pl-8 grid grid-cols-2 gap-y-4 gap-x-8 max-w-4xl">
           {/* Left column */}
           <div className="flex items-center gap-3">
-            <SiTypescript className="text-2xl" />
+            <SiTypescript className="text-2xl" color="" />
             <span>TypeScript</span>
           </div>
           <div className="flex items-center gap-3">
-            <FaHtml5 className="text-2xl" />
-            <span>HTML</span>
+            <SiLatex className="text-2xl" />
+            <span>LaTeX</span>
           </div>
           <div className="flex items-center gap-3">
-            <SiJavascript className="text-2xl" />
-            <span>JavaScript</span>
+            <TbBrandCpp className="text-2xl" />
+            <span>C++</span>
           </div>
           <div className="flex items-center gap-3">
-            <SiVuedotjs className="text-2xl" />
-            <span>Vue.js</span>
+            <SiHuggingface className="text-2xl" />
+            <span>Transformers</span>
           </div>
           <div className="flex items-center gap-3">
             <FaPython className="text-2xl" />
             <span>Python</span>
           </div>
           <div className="flex items-center gap-3">
+            <FaNotesMedical className="text-2xl" />
+            <span>MIMIC Data</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <SiNextdotjs className="text-2xl" />
+            <span>Next.js</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <MdOutlineVideoCameraBack className="text-2xl" />
+            <span>YOLO</span>
+          </div>
+          <div className="flex items-center gap-3">
             <FaReact className="text-2xl" />
             <span>React</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <FaRust className="text-2xl" />
-            <span>Rust</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <FaNodeJs className="text-2xl" />
-            <span>Node.js</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <SiC className="text-2xl" />
-            <span>C</span>
           </div>
           <div className="flex items-center gap-3">
             <SiTailwindcss className="text-2xl" />

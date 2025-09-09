@@ -63,7 +63,7 @@ const ContactSection = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-900 flex items-center justify-start p-6 pl-30">
+    <div className="min-h-screen text-gray-900 flex items-center justify-start p-6 pl-20">
       <div className="w-full max-w-2xl">
         {/* Header with opening brace */}
         <div className="flex items-baseline gap-3 mb-8">

@@ -10,10 +10,10 @@ const WorkTimeline: React.FC = () => {
       id: "exp1",
       title: "Tunghai University - Research Intern",
       site: "https://orcid.org/0009-0003-8432-6218",
-      start: "2024-06-01",
+      start: "2024-08-01",
       end: "2024-09-30",
       summary:
-        "Built UI components, tightened a11y, and improved load-time with code splitting.",
+        "Researched AI-based tools for hospital settings and gun detection. Published a paper to MDPI Artificial Intelligence journal.",
     },
     {
       id: "exp2",
@@ -22,7 +22,7 @@ const WorkTimeline: React.FC = () => {
       start: "2025-03-01",
       end: "",
       summary:
-        "Shipped dashboard views, introduced form schemas, and added telemetry hooks.",
+        "Designed frontend and AI models for a web application that connects patients to relevant clinical trials.",
     },
     {
       id: "exp3",
@@ -31,12 +31,12 @@ const WorkTimeline: React.FC = () => {
       start: "2025-06-01",
       end: "2025-9-20",
       summary:
-        "Scoped micro-services, authored REST endpoints, and stabilized releases.",
+        "Audited frontend and supabase backend for improved security and performance.",
     },
   ];
 
   // --- 2) Timeline bounds (2024 → 2025) ------------------------------------
-  const START = useMemo(() => new Date("2024-04-01"), []);
+  const START = useMemo(() => new Date("2024-06-01"), []);
   const END = useMemo(() => new Date("2025-7-31"), []);
   const spanMs = END.getTime() - START.getTime();
 
@@ -66,7 +66,7 @@ const WorkTimeline: React.FC = () => {
 
         {/* Drag/scroll helper */}
         <div className="pl-6 md:pl-8 text-xs uppercase tracking-wider mb-6 opacity-70">
-          Drag to explore
+          Drag to explore 
         </div>
 
         {/* --- 3) Scrollable timeline strip --------------------------------- */}
@@ -79,10 +79,10 @@ const WorkTimeline: React.FC = () => {
             {/* Inner canvas: make it wide so we get horizontal scroll on small screens */}
             <div
               className="relative py-32"
-              style={{ width: `${canvasWidth}px`, minHeight: "22rem" }}  // ~352px tall rail area
+              style={{ width: `${canvasWidth}px`, minHeight: "20rem" }}  // ~352px tall rail area
             >
               {/* Baseline */}
-              <div className="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-[10px] bg-black/70 rounded-full" />
+              <div className="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-[6px] bg-black/70 rounded-full" />
 
               {/* Year ticks */}
               <div className="absolute top-[calc(50%-18px)] -translate-y-1/2 left-0 text-xs font-medium">
@@ -98,7 +98,7 @@ const WorkTimeline: React.FC = () => {
                 const below = true; // job card below the line
                 const yDot = "50%";
                 const dotBase =
-                  "absolute -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border-2 border-black bg-[#C76A2F]";
+                  "absolute -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border-2 border-black bg-white";
                 const ring =
                   "after:content-[''] after:absolute after:inset-[-8px] after:rounded-full after:border after:border-sky-950";
                 const z = 10 + i;
@@ -119,10 +119,6 @@ const WorkTimeline: React.FC = () => {
                         target="_blank"
                         rel="noreferrer"
                         className="inline-block whitespace-nowrap font-bold text-xs px-3 py-1 rounded-md border border-black text-black bg-white hover:bg-black hover:text-white transition-colors shadow-sm"
-                        style={{
-                          fontFamily: 'Impact, "Franklin Gothic Bold", "Helvetica Black", sans-serif',
-                          fontStretch: 'condensed',
-                        }}
                       >
                         VISIT
                       </a>
@@ -145,7 +141,7 @@ const WorkTimeline: React.FC = () => {
                         <div className="mt-2 text-sm opacity-80 leading-relaxed">
                           {it.summary}
                         </div>
-                        <div className="mt-2 text-sm font-medium uppercase">
+                        <div className="mt-2 text-sm font-medium text-[#C76A2F] uppercase">
                           {new Date(it.start).toLocaleString("en-US", {
                             month: "short",
                             year: "numeric",

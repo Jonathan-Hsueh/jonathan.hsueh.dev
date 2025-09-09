@@ -22,11 +22,11 @@ const ImpactText = ({
     };
 
     const cyclingWords = [
-      "Frontend Developer",
-      "UI/UX Designer", 
-      "React Enthusiast",
-      "Creative Thinker",
-      "Problem Solver"
+      "Fullstack Developer",
+      "AI Researcher", 
+      "Community Leader",
+      "Problem Solver",
+      "Chipotle Lover"
     ];
     useEffect(() => {
       const onKey = (e: KeyboardEvent) => {
@@ -70,7 +70,13 @@ useEffect(() => {
 }, [currentText, isDeleting, currentWordIndex, typeSpeed, cyclingWords]);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8 flex flex-col items-center justify-center space-y-8">
+    <div className="min-h-screen bg-gray-100 p-8 flex flex-col items-center justify-center space-y-8"
+    style={{
+      backgroundImage: `radial-gradient(circle,rgb(209, 213, 219) 1px, transparent 1px)`,
+      backgroundSize: '24px 24px',
+      backgroundPosition: '0 0'
+    }}
+    >
       {/* Main heading with Impact font */}
       <h1 
         className="text-6xl font-black text-sky-950 uppercase tracking-normal leading-none" // tracking normal or tight

@@ -26,7 +26,7 @@ export default function Home() {
 
     <ImpactPageWrapper navItems={navItems}>
        <div className="snap-y snap-mandatory h-screen overflow-y-scroll overflow-x-hidden min-w-0">
-        <section id="section-0" className="h-screen snap-start bg-orange-50 w-full bg-white">
+        <section id="section-0" className="h-screen snap-start w-full bg-white">
           <ImpactText />
         </section>
 
@@ -38,27 +38,27 @@ export default function Home() {
           <SkillsSection/>
         </section>
 
-        <section id="section-3" className="w-full h-screen snap-start bg-gray-50">
+        <section id="section-3" className="w-full h-screen snap-start bg-white">
           {/* Your About content */}
           <WorkTimeline/>
         </section>
 
-        <section id="section-4" className="w-full h-screen snap-start bg-gray-50">
+        <section id="section-4" className="w-full h-screen snap-start bg-white">
           {/* Your About content */}
           <ProjectsCarouselSection />
         </section>
         
-        <section id="section-5" className="w-full h-screen snap-start bg-gray-50">
+        <section id="section-5" className="w-full h-screen snap-start bg-white">
           {/* Your About content */}
           <AwardsCarouselSection />
           
         </section>
 
-        <section id="section-6" className="w-full h-screen snap-start bg-gray-50">
+        <section id="section-6" className="w-full h-screen snap-start bg-white">
           {/* Your About content */}
           <ContactSection />
         </section>
-        <section id="section-7" className="w-full h-screen snap-start bg-gray-50">
+        <section id="section-7" className="w-full h-screen snap-start bg-white">
           {/* Your About content */}
           <Gallery />
         </section>
