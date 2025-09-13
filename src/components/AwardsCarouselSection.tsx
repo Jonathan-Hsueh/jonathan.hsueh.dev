@@ -29,7 +29,7 @@ const AwardsCarouselSection: React.FC = () => {
       },
       {
         title: "Hospital Resources and Events Research",
-        description: "Advanced to finals in global AI innovation challenge.",
+        description: "Supporting efficient hospital management with wheelchair and violence detection system.",
         href: "https://ieee-iotj.org/",
         status: "in-progress" as const,
         icon: <NotebookText className="w-12 h-12"/>,
