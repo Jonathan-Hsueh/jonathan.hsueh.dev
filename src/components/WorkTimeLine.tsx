@@ -11,7 +11,7 @@ const WorkTimeline: React.FC = () => {
       title: "Tunghai University - Research Intern",
       site: "https://orcid.org/0009-0003-8432-6218",
       start: "2024-08-01",
-      end: "2024-09-30",
+      end: "",
       summary:
         "Researched AI-based tools for hospital settings and gun detection. Published a paper to MDPI Artificial Intelligence journal.",
     },
