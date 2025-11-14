@@ -100,10 +100,7 @@ useEffect(() => {
       {/* Numbered list matching your image */}
       <div 
         className="text-left space-y-2"
-        style={{
-          fontFamily: 'Impact, "Franklin Gothic Bold", "Helvetica Black", sans-serif',
-          fontStretch: 'condensed'
-        }}
+        
       >
         {sectionMap
   .filter(s => s.id !== 0) // omit 0 here; keep it if you want

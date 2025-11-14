@@ -117,7 +117,7 @@ export const ImpactPageWrapper = ({
   }, [navItems]);
 
   return (
-    <div className={`min-h-screen bg-orange-50 flex ${className}`}>
+    <div className={`min-h-screen bg-white flex ${className}`}>
       {/* Navigation */}
       <ImpactNavigation
         items={navItems}

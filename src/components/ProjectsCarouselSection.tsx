@@ -5,9 +5,8 @@ import React, { useState, useMemo, useEffect, useCallback } from "react";
 const ProjectsCarouselSection: React.FC = () => {
   const items = useMemo(
     () => [
-      { img: "/projects/p1.jpg", href: "https://globalmediatracker.vercel.app/home", alt: "Project 1" },
-      { img: "/projects/p2.jpg", href: "https://gods-eye-object-security-detection.streamlit.app/", alt: "Project 2" },
-      { img: "/projects/p3.jpg", href: "https://understanding-website-krxh.vercel.app/", alt: "Project 3"}
+      { img: "/projects/p2.jpg", href: "https://gods-eye-object-security-detection.streamlit.app/", alt: "Project 1" },
+      { img: "/projects/p3.jpg", href: "https://understanding-website-krxh.vercel.app/", alt: "Project 2"}
       ],
     []
   );

@@ -21,9 +21,8 @@ export default function Home() {
     { id: 6, number: '6', text: 'CONTACT' },
     { id: 7, number: '7', text: 'GALLERY' }
   ];
-
+/// https://www.comme-des-garcons.com/index.html <- Inspiration behind website
   return (
-
     <ImpactPageWrapper navItems={navItems}>
        <div className="snap-y snap-mandatory h-screen overflow-y-scroll overflow-x-hidden min-w-0">
         <section id="section-0" className="h-screen snap-start w-full bg-white">

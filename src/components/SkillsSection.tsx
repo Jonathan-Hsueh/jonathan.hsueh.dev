@@ -6,8 +6,6 @@ import { SiTypescript, SiHuggingface, SiNextdotjs, SiTailwindcss , SiLatex} from
 import { TbBrandCpp } from "react-icons/tb";
 import { MdOutlineVideoCameraBack } from "react-icons/md";
 
-
-
 const SkillsSection: React.FC = () => {
   return (
     <div className="h-full w-full flex items-center justify-center">
