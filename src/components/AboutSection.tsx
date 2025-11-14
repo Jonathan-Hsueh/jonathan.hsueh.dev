@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => {
     `Over the years I've collaboratively developed numerous research and technical projects to solve the most
     important problems.`;
   const paragraph6 =
-    `At school I'm a part of Taiwanese Cultural Club and Breakdancing Club leadership, and 
+    `At school I'm a part of 180 Degrees Consulting as a Technical Consultant, and Taiwanese Cultural Club and Breakdancing Club leadership, and 
     I've been on Student Government and in independent startup projects.`;
   const imageSrc = "/about-image.jpg";
   const imageAlt = "About image";
