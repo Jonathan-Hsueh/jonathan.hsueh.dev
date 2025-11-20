@@ -24,7 +24,9 @@ const SkillsSection: React.FC = () => {
             I&apos;m great in dissecting complex problems into manageable tasks, essential for crafting
             robust, maintainable code in large-scale projects. I&apos;m driven by challenges, always
             seeking opportunities to enhance my skills. My self-directed learning approach empowers
-            me to quickly grasp and adapt to new technologies autonomously.
+            me to quickly grasp and adapt to new technologies autonomously. I&apos;m interested in AI/ML in IoT
+            edge devices, object detection and semantic analysis technologies, and the mathematical 
+            foundations behind Markov chains and recommender algorithms, to name a few things. 
           </p>
         </div>
 

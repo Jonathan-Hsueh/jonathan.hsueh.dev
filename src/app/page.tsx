@@ -5,7 +5,7 @@ import { ImpactPageWrapper} from "@/components/ImpactNavigation";
 import AboutSection from "@/components/AboutSection";
 import SkillsSection from "@/components/SkillsSection";
 import WorkTimeline from "@/components/WorkTimeLine";
-import ProjectsCarouselSection from "@/components/ProjectsCarouselSection";
+import ImageCarousel from "@/components/ImageCarousel";
 import AwardsCarouselSection from "@/components/AwardsCarouselSection";
 import ContactSection from "@/components/ContactSection";
 import Gallery from "@/components/Gallery";
@@ -16,8 +16,8 @@ export default function Home() {
     { id: 1, number: '1', text: 'ABOUT' },
     { id: 2, number: '2', text: 'SKILLS' },
     { id: 3, number: '3', text: 'WORK' },
-    { id: 4, number: '4', text: 'PROJECTS' },
-    { id: 5, number: '5', text: 'AWARDS & PUBS' },
+    { id: 4, number: '4', text: 'AWARDS & PUBS' },
+    { id: 5, number: '5', text: 'MOMENTS' },
     { id: 6, number: '6', text: 'CONTACT' },
     { id: 7, number: '7', text: 'GALLERY' }
   ];
@@ -44,12 +44,13 @@ export default function Home() {
 
         <section id="section-4" className="w-full h-screen snap-start bg-white">
           {/* Your About content */}
-          <ProjectsCarouselSection />
+          <AwardsCarouselSection />
         </section>
         
         <section id="section-5" className="w-full h-screen snap-start bg-white">
           {/* Your About content */}
-          <AwardsCarouselSection />
+  
+          <ImageCarousel />
           
         </section>
 

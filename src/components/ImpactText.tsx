@@ -8,7 +8,7 @@ const ImpactText = ({
     { id: 1, title: 'ABOUT' },
     { id: 2, title: "SKILLS" },
     { id: 3, title: 'WORK' },
-    { id: 4, title: 'PROJECTS' },
+    { id: 4, title: 'MOMENTS' },
     { id: 5, title: 'AWARDS&PUBS' },
     { id: 6, title: 'CONTACT' },
     { id: 7, title: 'GALLERY' },

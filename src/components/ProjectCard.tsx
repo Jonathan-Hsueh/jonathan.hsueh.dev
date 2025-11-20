@@ -197,14 +197,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                         >
                             <h3 className="text-sky-950 font-bold text-xl mb-1">{title}</h3>
                             {description && (
-                            <p className="text-gray-700 text-sm line-clamp-2">{description}</p>
+                            <p className="text-gray-700 text-sm line-clamp-2 z-50">{description}</p>
                             )}
-                            <div 
-                            className="absolute bottom-2 right-4 text-xs font-semibold px-2 py-1 rounded"
-                            style={{ backgroundColor: accentColor, color: 'white' }}
-                            >
-                            Click to explore →
-                            </div>
+                            
                         </div>
                         </div>
                     </div>

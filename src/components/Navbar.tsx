@@ -1,6 +1,5 @@
 "use client";
 
-import {useState} from 'react'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -8,7 +7,7 @@ const Navbar = () => {
     const pathname = usePathname()
     const navLinks = [
         { href: '/', label: 'Home'},
-        { href: '/projects', label: 'More Projects'},
+        { href: '/projects', label: 'Projects'},
         { href: '/blog', label: 'Blog'},
     ]
 
