@@ -37,7 +37,7 @@ const WorkTimeline: React.FC = () => {
 
   // --- 2) Timeline bounds (2024 → 2025) ------------------------------------
   const START = useMemo(() => new Date("2024-06-01"), []);
-  const END = useMemo(() => new Date("2025-7-31"), []);
+  const END = useMemo(() => new Date("2025-12-31"), []);
   const spanMs = END.getTime() - START.getTime();
 
   const toPct = (iso: string) => {

@@ -59,7 +59,7 @@ const AboutSection: React.FC = () => {
             <br /> 
           </p>
           <a
-              href="https://drive.google.com/file/d/1g1pk0Sk0CStmj8I9BTbLjk3mBQSVrFJX/view?usp=sharing"
+              href="https://drive.google.com/file/d/159dMQ2c4v4A6JyqoJDwW_mn_UsmwqsYD/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 text-gray-700 hover:text-gray-900 transition-colors"

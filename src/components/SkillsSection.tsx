@@ -55,7 +55,7 @@ const SkillsSection: React.FC = () => {
           </div>
           <div className="flex items-center gap-3">
             <FaNotesMedical className="text-2xl" />
-            <span>MIMIC Data</span>
+            <span>Pytorch</span>
           </div>
           <div className="flex items-center gap-3">
             <SiNextdotjs className="text-2xl" />
@@ -67,7 +67,7 @@ const SkillsSection: React.FC = () => {
           </div>
           <div className="flex items-center gap-3">
             <FaReact className="text-2xl" />
-            <span>React</span>
+            <span>Java</span>
           </div>
           <div className="flex items-center gap-3">
             <SiTailwindcss className="text-2xl" />
